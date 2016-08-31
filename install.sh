@@ -37,6 +37,7 @@ cd pcre-8.38
 ./configure --prefix=/usr/
 make
 make install
+ldconfig
 
 #### Install nginx
 cd $CUR_DIR
